@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="pref_night_summary">Turn on / off night mode</string>
+    <string name="pref_reversesort_summary">Reverse the time order of current items</string>
+    <string name="pref_reversesort">Reverse Time Order</string>
+    <string name="pref_fabcolor_summary">Choose the color of ADD NOTE button</string>
+    <string name="pref_fabcolor">Customize ADD NOTE button</string>
+    <string name="pref_fabplancolor_summary">Choose the color of ADD PLAN button</string>
+    <string name="pref_fabplancolor">Customize ADD PLAN button</string>
+    <string name="pref_notetitle">Note Title Style</string>
+    <string name="pref_notetitle_summary">Set the first line of note as its title</string>
+    <string name="send_request">Send Request By OKHttp</string>
+    <string name="send_request_retrofit">Send Request By Retrofit</string>
+</resources>

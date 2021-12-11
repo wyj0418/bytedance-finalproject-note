@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".wallpaper">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/noteToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:titleTextColor="?attr/titleColor"
+        app:title="Wallpapers"
+        android:theme="?attr/toolbarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+        android:src="@mipmap/img_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/wall_a"
+        android:layout_marginTop="10dp">
+
+        </ImageView>
+        <ImageView
+            android:src="@mipmap/img_2"
+            android:layout_width="200dp"
+            android:id="@+id/wall_b"
+            android:layout_marginTop="10dp"
+            android:layout_height="200dp">
+
+        </ImageView>
+    </LinearLayout>
+</LinearLayout>
+
+
+
